@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Rocket
+  - LandingPlatform
   layers:
   - Default
   - TransparentFX
