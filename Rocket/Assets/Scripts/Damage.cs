@@ -7,8 +7,12 @@ public class Damage : MonoBehaviour
     public GameObject HideObject;
     public void Start()
     {
-        //HideObject = this.gameObject;
-        HideObject.GetComponent<Renderer>().enabled = false;
+        if (HideObject != null)
+        {
+            HideObject = this.gameObject;
+            HideObject.GetComponent<Renderer>().enabled = false;
+        }
+
     }
 
     public float damageAmount = 10.0f;
