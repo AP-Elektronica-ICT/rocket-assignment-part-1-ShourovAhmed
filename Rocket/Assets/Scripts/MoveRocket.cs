@@ -24,11 +24,12 @@ public class MoveRocket : MonoBehaviour
             //rocket.AddForce(transform.up * force);
             rocket.AddRelativeForce(transform.up * force);
         }          
-        if (Input.GetKey(KeyCode.LeftArrow))
+        // Extra parameter to stop rocket from rotating cuz the freezeRotation kept getting overwritten by this script
+        if (Input.GetKey(KeyCode.LeftArrow) && !rocket.GetComponent<Health>().landed)
         {
             rocket.transform.Rotate(left, 0f, 0f);
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && !rocket.GetComponent<Health>().landed)
         {
             rocket.transform.Rotate(right,0f,0f);
         }

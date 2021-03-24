@@ -18,6 +18,8 @@ public class Level1Manager : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Rocket");
         }
         body = player.GetComponent<Rigidbody>();
+        body.isKinematic = false;
+
 
         Landed = player.gameObject.GetComponent<Health>().landed;
         LevelCompleteCanvas.SetActive(false);
@@ -31,9 +33,11 @@ public class Level1Manager : MonoBehaviour
         if (Landed)
         {
             LevelCompleteCanvas.SetActive(true);
-            player.SetActive(false);
 
-            
+            // Stop rocket from moving (stop rotating in MoveRocket.cs)
+            body.isKinematic = true;
+
+                      
         }
     }
 }
