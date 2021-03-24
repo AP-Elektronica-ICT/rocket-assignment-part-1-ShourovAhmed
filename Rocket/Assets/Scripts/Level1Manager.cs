@@ -18,6 +18,7 @@ public class Level1Manager : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Rocket");
         }
         body = player.GetComponent<Rigidbody>();
+
         Landed = player.gameObject.GetComponent<Health>().landed;
         LevelCompleteCanvas.SetActive(false);
     }
@@ -26,11 +27,13 @@ public class Level1Manager : MonoBehaviour
     void Update()
     {
         Landed = player.gameObject.GetComponent<Health>().landed;
+
         if (Landed)
         {
             LevelCompleteCanvas.SetActive(true);
-            body.velocity = Vector3.zero;
-            body.angularVelocity = Vector3.zero;
+            player.SetActive(false);
+
+            
         }
     }
 }
