@@ -278,14 +278,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 343053365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76806479d916a64aa03f8e3eba7912f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d833145514a44c4c9d22ff3bfeddc29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 121565738}
-  distance: 10
-  height: 9.78
-  rotationDamping: 0
-  heightDamping: 0
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: -20}
 --- !u!1001 &487753259
 PrefabInstance:
   m_ObjectHideFlags: 0
