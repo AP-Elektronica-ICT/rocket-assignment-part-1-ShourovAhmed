@@ -95,4 +95,13 @@ public class Health : MonoBehaviour {
             Debug.Log("Landed!");
         }
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "LandingPlatform")
+        {
+            landed = true;
+            Debug.Log("Landed!");
+        }
+    }
 }
