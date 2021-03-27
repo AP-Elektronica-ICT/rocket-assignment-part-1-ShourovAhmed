@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 85781712019115918}
   - component: {fileID: 85781712019115917}
   - component: {fileID: 85781712019115916}
+  - component: {fileID: 6632828146269698813}
   m_Layer: 0
   m_Name: Moving Platform
   m_TagString: Untagged
@@ -110,3 +111,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.5
   width: 10
+--- !u!114 &6632828146269698813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85781712019115915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f38223be9a9bde459374a9acc7bf9a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HideObject: {fileID: 0}
+  damageAmount: 1
+  damageOnTrigger: 0
+  damageOnCollision: 1
+  continuousDamage: 0
+  continuousTimeBetweenHits: 0
+  destroySelfOnImpact: 0
+  delayBeforeDestroy: 0
+  explosionPrefab: {fileID: 0}
