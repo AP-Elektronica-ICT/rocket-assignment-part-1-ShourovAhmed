@@ -1091,6 +1091,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
+    - target: {fileID: 8611517049433042666, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+      propertyPath: m_Height
+      value: 4.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8611517049433042666, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+      propertyPath: m_Center.y
+      value: 0.18
+      objectReference: {fileID: 0}
     - target: {fileID: 8611517049433042668, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
       propertyPath: m_Constraints
       value: 120
@@ -1105,7 +1113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8611517049433042671, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.92
+      value: 5.44
       objectReference: {fileID: 0}
     - target: {fileID: 8611517049433042671, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1139,7 +1147,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8611517047613157496, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517048392190001, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517049192793574, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517048375977915, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517049405200704, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517048094914003, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517048427286919, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
+    - {fileID: 8611517049096423558, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2a147ae35addce94c8763af67df0e714, type: 3}
 --- !u!1001 &2040904802
 PrefabInstance:
