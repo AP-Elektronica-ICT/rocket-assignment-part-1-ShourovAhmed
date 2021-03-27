@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rocket
   - LandingPlatform
+  - Coin
   layers:
   - Default
   - TransparentFX
